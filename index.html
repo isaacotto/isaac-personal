@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>io - home</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{{ './css/style.css' | url }}">
 
     <!-- ICONS -->
-    <link rel="shortcut icon" href="./icons/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
+    <link rel="shortcut icon" href="{{ './icons/favicon.ico' | url }}"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ './icons/apple-touch-icon.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ './icons/favicon-32x32.png' | url }}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ './icons/favicon-16x16.png' | url }}"/>
     <!----------->
 </head>
 
@@ -23,7 +23,7 @@
     <div class="linkbar" id="navbar"></div>
 
     <script>
-    fetch('./navbar.html')
+        fetch("{{ ./navbar.html | url }}")
       .then(response => response.text())
       .then(html => {
         document.getElementById('navbar').innerHTML = html;

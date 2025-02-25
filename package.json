@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "name": "hello-eleventy",
+    "version": "0.0.1",
+    "description": "My personal site.",
+    "scripts": {
+        "start": "eleventy --serve",
+        "build": "NODE_ENV=production eleventy --pathprefix 'isaac-personal'"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^3.0.0"
   }
 }

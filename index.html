@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>io - home</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
+    <!----------->
+</head>
+
+<body>
+
+<div class="center" id="top">
+
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
+<pre class="pre1">
+    _/                                                          _/      _/               
+        _/_/_/    _/_/_/    _/_/_/    _/_/_/        _/_/    _/_/_/_/_/_/_/_/    _/_/    
+  _/  _/_/      _/    _/  _/    _/  _/            _/    _/    _/      _/      _/    _/   
+ _/      _/_/  _/    _/  _/    _/  _/            _/    _/    _/      _/      _/    _/    
+_/  _/_/_/      _/_/_/    _/_/_/    _/_/_/        _/_/        _/_/    _/_/    _/_/   	
+</pre>
+
+<!-- <div class="scroll-left"> -->
+<!--     <p><a href="https://infrequentseams.bandcamp.com/album/oshi">A NEW ALBUM BY ISAAC NILOUFAR SHIRI OUT NOW FOR YOUR LISTENING PLEASURE</a></p> -->
+<!-- </div> -->
+
+    <div class="centerimg">
+        <img src="images/gaze.jpg" alt="gaze" title="gaze" style="width:600px;height:auto;border:1mm solid rgba(190, 190, 190, .6);filter: drop-shadow(0px 0px 0px black);">
+    </div>
+    <div class="centerimg"> 
+        <p class="longpar">
+        <a href="https://infrequentseams.bandcamp.com/album/oshi"><i>OSHI</i>: A NEW ALBUM BY ISAAC OTTO AND NILOUFAR SHIRI OUT DECEMBER 2024 ON INFREQUENT SEAMS FOR YOUR LISTENING PLEASURE --- *</a>
+        </p>
+
+        <p class="longpar">
+        <a href="https://chrishadley.bandcamp.com/album/machine-based-context-sensitive-system-for-managing-multi-round-dialog"><i>MACHINE BASED CONTEXT-SENSITIVE SYSTEM FOR MANAGING MULTI-ROUND DIALOG</i>: A NEW ALBUM BY CHRIS HADLEY, OLIVER GEORGE-BROWN, AND ISAAC OTTO in which ISAAC MAKES HIS GUITAR DEBUT IN A BASEMENT --- *</a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <div>
+            <p class="par2">
+            <a href="./secret/auth.txt">Isaac</a> (born 1989, Phoenix, AZ ; raised Little Rock, AR) is a composer/improviser and multi-woodwind performer based in Los Angeles, CA. He recently graduated from UC Irvine's <a href="https://music.arts.uci.edu/icit/">Integrated Composition, Improvisation and Technology</a> PhD program where he specialized in 20th- and 21st-century music notations. His <a href="./secret/diss.txt">dissertation</a> "<i>Scoring the Unknown: Rethinking Fixity and Openness in Western Art Music Notation</i>" is now available via UCI's library and <a href="https://escholarship.org/uc/item/48w4k5vj">via eScholarship</a>.
+            </p>
+            <p class="par2">
+            In 2018, he received his MFA in Music Performance and Literature from Mills College (<a href="https://www.oaklandca.gov/news/2022/oakland-city-council-votes-to-urge-investigation-into-mills-college-closure"><i>requiescat in pace</i></a>) where he studied composition/improvisation with Roscoe Mitchell, James Fei, Fred Frith, and Zeena Parkins. 
+            </p>
+            <p class="par2">
+            His scholarly and creative work centers on music notation, open-form composition, musical modernism, the American jazz tradition, and the creative legacy of the AACM. He is also a passable guitarist, draughtsman, and film photographer.
+            </p>
+    </div>
+
+    <hr>
+
+    <div class="centerimg">
+        <img src="images/glyphs/lolly1.png" alt="lolly" title="lolly" style="width:400px;height:auto;filter: drop-shadow(0px 0px 0px black);">
+    </div>
+
+    <!-- link bar at bottom of page -->
+    <!-- <div class="linkbar" id="bottom"> -->
+    <!--     <a href="mailto:io@isaacotto.com">email me</a> -->
+    <!--     --- -->
+    <!--     <a href="https://isaacotto.bandcamp.com">bandcamp</a> -->
+    <!--     --- -->
+    <!--     <a href="https://soundcloud.com/isaacotto">soundcloud</a> -->
+    <!--     --- -->
+    <!--     <a href="#top">top</a> -->
+    <!-- </div> -->
+</div> 
+</body>
+</html>

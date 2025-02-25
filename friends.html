@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>io - friends</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
+    <!----------->
+</head>
+
+<body>
+<div class="center">
+
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
+<pre class="pre1">
+▗▞▀▀▘▄▄▄ ▄ ▗▞▀▚▖▄▄▄▄     ▐▌ ▄▄▄ 
+▐▌  █    ▄ ▐▛▀▀▘█   █    ▐▌▀▄▄  
+▐▛▀▘█    █ ▝▚▄▄▖█   █ ▗▞▀▜▌▄▄▄▀ 
+▐▌       █            ▝▚▄▟▌     
+
+ -----------------------------
+</pre>
+
+<!-- I want this to look like -->
+<!-- Isaac Otto . . . . . . . . Saxophonist -->
+<!-- and be column-justified... -->
+
+    <h1 class="h1">
+        <a href="https://lindsayellary.com/">Lindsay Ellery (Photographer)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://olivergeorgebrown.com/">Oliver George-Brown (Artist and composer)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://cchcchcch.com/">Christopher Hadley (Electronic musician and percussionist)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://www.james-ilgenfritz.com/">James Ilgenfritz (Double bass improviser and composer)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://www.charliemorrow.com/">Charlie Morrow (Composer, improviser, poet [...])</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://atticusreynoldsmusic.tumblr.com/">Atticus Reynolds (Drummer and songwriter)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://golnazshariatzadeh.com/">Golnaz Shariatzadeh (Artist and composer)</a>
+    </h1>
+
+    <h1 class="h1">
+        <a href="https://niloufarshiri.com/">Niloufar Shiri (Kamancheh player and composer)</a>
+    </h1>
+
+    <br>
+    <hr>
+
+    <div class="centerimg">
+        <img src="images/glyphs/03-multiply.png" alt="multiply" title="multiply" style="width:100px;height:auto;filter: drop-shadow(0px 0px 0px black);">
+    </div>
+
+    </div>
+</body>

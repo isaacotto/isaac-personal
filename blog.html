@@ -1,0 +1,18 @@
+---
+layout: layout.html
+---
+
+{% for post in collections.posts %}
+<h1 class="h1">{{ post.data.postdate | date: "%Y | %m | %d" }}</h1>
+<h1 class="h1">{{ post.data.title }}</h1>
+
+<p class="par2">{{ post.content }}</p>
+
+<br>
+<h1 class="h1">...................</h1>
+</br>
+{% endfor %}
+
+<h1 class="h1">© Isaac Otto 2025</h1>
+
+

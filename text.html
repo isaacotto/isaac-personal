@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>io - text</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
+    <!----------->
+</head>
+
+<body>
+<div class="center">
+
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
+<pre class="pre1">
+████████ ███████ ██   ██ ████████ 
+   ██    ██       ██ ██     ██    
+   ██    █████     ███      ██    
+   ██    ██       ██ ██     ██    
+   ██    ███████ ██   ██    ██    
+</pre>
+
+    <p class="par2">
+    <a href="./pdf/theorizing-notation-presentation-script.pdf">"Theorizing Notation: 1959--1965"</a> [2024]<br><br>
+
+        Conference paper discussing early attempts by Karlheinz Stockhausen and György Ligeti to develop "notation theory" able to explain the sudden deluge of new notations which swept Euro-American modernist composition in the 1950s and '60s. Presentation delivered at the 47th annual meeting of the Society for Music Theory (SMT) and the West Coast Conference of Music Theory and Analysis (WCCMTA), 2024.<br>
+    </p>
+
+    <p class="par2">
+    <a href="https://escholarship.org/uc/item/48w4k5vj">"Scoring the Unknown: Rethinking Fixity and Openness in Western Art Music Notation"</a> [2023]<br><br>
+        My dissertation on new notations for improvisers and what they have to tell us about music notation more generally.<br><br>
+
+        <i>
+        ABSTRACT: To date, there exists a startling lack of scholarly literature which attempts to systematically address novel notations for improvisers—particularly instances centering syntactically- and semantically- well-defined symbols. This lack of attention may be attributed, at least partially, to unclear definitions at the heart of the discourse and the lack of a rigorous typology of music notations generally.<br><br>
+
+        This dissertation, via a multi-pronged strategy, takes steps toward filling this lacuna. Chapter One provides a historical gloss grounding twentieth- and twenty-first century performer/notation interaction in much earlier models, locating Western notation’s fixity and openness as core sites of musico-technological innovation. In the process, the chapter highlights pivotal signposts in Western notation which mark important paradigm shifts in these conceptual categories.<br><br>
+
+        Chapter Two articulates a clear philosophical position with regard to notational semantic content, “fixed” and “open” notation, and thenotion of the open score as first posed in the 1950s and ’60s, challenging the conceits of the prevailing “folk semiosis” of music notation in order to begin developing a more analytically useful notation typology. To this end, the chapter examines essays by Umberto Eco and Pierre Boulez, along with György Ligeti’s „Neue Notation: Kommunikationsmittel oder Selbstzweck?”---by far the most lucid attempt to formulate such a typology.<br><br>
+
+        Chapter Three deploys concepts solidified in the previous chapter in service of a notation-centric analysis of two late-century work complexes: Anthony Braxton’s Composition No. 76 and Horațiu Rădulescu’s Das Andere/Op. 89 (“Before the Universe was Born”). Interrogating these works’ related-but-disparate notation schemes grants new insights into notation’s ability to mediate performer/composer agencies and to uniquely reflect composers’ communities of practice and philosophical/aesthetic commitments.<br><br>
+
+        Finally, Chapter Four thoroughly documents the author’s efforts to develop and deploy a novel notation scheme for improvising musicians. This includes a discussion of several aspects of the design and preliminary implementation of {O-G} notation as well as of its use in a series of creative works intended to demonstrate its range and flexibility. This is followed by a frank assessment of the extent to which it was capable of fulfilling the author’s initial desiderata and subsequent design criteria.
+        </i>
+    </p>
+
+    <p class="par2">
+    <a href="pdf/instruction-manual-shrunk.pdf"><i>On the Use and Interpretation of Otto-Glyphs</i></a> [2023]<br><br>
+        The most recent version of the instruction manual for my bespoke notation-for-improvisers. This is provided to my players prior to rehearsal as a primer.<br>
+    </p>
+
+    <p class="par2">
+    <a href="pdf/program_notes.pdf">Program notes for "I Die Each Time I Hear the Sound"</a> [2023]<br><br> 
+        Brief but stylish program notes for my capstone concert at UCI.
+    </p>
+
+    <!-- <p class="par2"> -->
+    <!-- <a href="pdf/radulexu-x-braxton.pdf">"Pan-modal Optimism // Spectral Pessimism: Notational mediation in the works of Horațiu Rădulescu and Anthony Braxton" [2022]</a><br> <br> -->
+    <!--     A short paper I wrote for a music seminar at UCI demonstrating the ways that the two composers' notations reveal facets of their philosophical worldviews. -->
+    <!-- </p> -->
+
+    <hr>
+
+    <div class="centerimg">
+        <img src="images/glyphs/02-lolly2.png" alt="lollipops 2" title="lollipops 2" style="width:250px;height:auto;filter: drop-shadow(0px 0px 0px black);">
+    </div>
+
+    </div>
+
+</body>

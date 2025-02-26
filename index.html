@@ -23,7 +23,7 @@
     <div class="linkbar" id="navbar"></div>
 
     <script>
-        fetch("{{ ./navbar.html | url }}")
+        fetch("./navbar.html")
       .then(response => response.text())
       .then(html => {
         document.getElementById('navbar').innerHTML = html;
@@ -45,8 +45,10 @@ _/  _/_/_/      _/_/_/    _/_/_/    _/_/_/        _/_/        _/_/    _/_/    _/
 <!--     <p><a href="https://infrequentseams.bandcamp.com/album/oshi">A NEW ALBUM BY ISAAC NILOUFAR SHIRI OUT NOW FOR YOUR LISTENING PLEASURE</a></p> -->
 <!-- </div> -->
 
+    <hr>
     <div class="centerimg">
-        <img src="images/gaze.jpg" alt="gaze" title="gaze" style="width:600px;height:auto;border:1mm solid rgba(190, 190, 190, .6);filter: drop-shadow(0px 0px 0px black);">
+        <!-- <img src="images/gaze.jpg" alt="gaze" title="gaze" style="width:600px;height:auto;border:1mm solid rgba(190, 190, 190, .6);filter: drop-shadow(0px 0px 0px black);"> -->
+        <img src="images/glyphs/06-Artboard 2.png" style="width:600px; height=auto; border:0mm solid rgba(190, 190, 190, .6); filter: drop-shadow(0px 0px 0px black);">
     </div>
     <div class="centerimg"> 
         <p class="longpar">
@@ -76,7 +78,7 @@ _/  _/_/_/      _/_/_/    _/_/_/    _/_/_/        _/_/        _/_/    _/_/    _/
     <hr>
 
     <div class="centerimg">
-        <img src="images/glyphs/lolly1.png" alt="lolly" title="lolly" style="width:400px;height:auto;filter: drop-shadow(0px 0px 0px black);">
+        <img src="images/glyphs/lolly1.png" alt="lolly" title="lolly" style="width:300px;height:auto;filter: drop-shadow(0px 0px 0px black);">
     </div>
 
     <!-- link bar at bottom of page -->

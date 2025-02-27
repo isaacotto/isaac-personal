@@ -1,0 +1,186 @@
+/* GLOBAL SETTINGS */
+@font-face {
+    font-family: FiraCode;
+    src: url('./fonts/FiraCodeNerdFont-SemiBold.ttf');
+    }
+
+  a:link { color: pink !important; text-decoration: none; }
+  a:visited { color: lightblue !important; text-decoration: none; }
+  a:hover { color: white !important; text-decoration: underline; }
+  a:active{ color: red !important; text-decoration: underline; }
+
+body {
+    background-color: #333333;
+    color: #BBBBBB;
+    hr { width: 50%; margin-bottom: 20px; }
+    .short { width: 25%; }
+}
+
+/* keep in mind that the header ASCII art is 86 characters long */
+/* and approximately 630 pixels wide (at least on my setup?) */
+.center { /* this is the big central box */
+  border: 2.5mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
+  margin: auto; /* this is what allows centering of main column */
+  width: 630px;
+  padding: 10px;
+}
+
+/* DIVISION STYLES */
+div {
+  font-family: FiraCode;
+  font-size: 12px;
+  text-align: left;
+  hyphens: auto;
+}
+
+.blogpost {
+  text-align: justify;
+  text-justify: inter-word;
+  /* text-align-last:left; */
+  padding-left: 3em;
+  padding-right: 3em;
+  /* text-indent: 2em; */
+  font-size: 14px;
+}
+
+.centerimg {
+    text-align: center;
+    img {filter: drop-shadow(10px 10px 5px black);}
+}
+
+.inleft {
+    padding: 30px; /* additional padding */
+}
+
+#wrapper {
+    width=550px;
+    overflow: hidden;
+    align: center;
+    padding: 10px;
+}
+
+#first { 
+    width: 325px; float:left;
+}
+
+#second {
+    overflow:
+    hidden;
+    vertical-align: top;
+}
+
+.linkbar {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* PRE STYLES */
+pre {
+    font-family: FiraCode, courier, monospace;
+    font-size: 12px;
+}
+
+.pre1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pre2 {
+    text-align: center;
+}
+
+
+/* PARAGRAPH STYLES */
+.piece {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  text-indent: -3em;
+  width: 250px;
+  hyphens: auto;
+  text-align: justify;
+}
+.longpiece {
+  margin-bottom: 1cm;
+  padding-left: 18em;
+  text-indent: -3em;
+  width: auto;
+  /* height: auto; */
+  /* hyphens: auto; */
+  text-align: left;
+  /* display: inline-block; */
+}
+
+.par1 {
+  margin-bottom: .5cm;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.par2 {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-indent: -2em;
+}
+
+.parcenter {
+  margin-bottom: .5cm;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-indent: -2em;
+  text-align: center;
+}
+
+.par3 {
+  margin-top: .5cm;
+  margin-bottom: .5cm;
+  hyphens: auto;
+  text-align: justify;
+  width: 200px;
+  display: inline-block;
+}
+
+.squarepar {
+  margin-bottom: .5cm;
+  width: 200px;
+  hyphens: auto;
+  text-align: justify;
+}
+
+.longpar {
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    padding-left: 3em;
+    padding-right: 3em;
+    hyphens: auto;
+    text-align: justify;
+    width: 200px
+    display: inline-block;
+}
+
+.marc {
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    padding-left: 3em;
+    padding-right: 3em;
+    hyphens: auto;
+    text-align: left;
+    width: 200px
+    display: inline-block;
+}
+
+.h1 {
+    padding: 5px;
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 14px; 
+    font-style: bold;
+}
+
+.centered {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

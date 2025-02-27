@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>io - image</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"/>
+    <!----------->
+</head>
+
+<body>
+<div class="center">
+<!-- link bar at top of page -->
+
+    <div class="linkbar" id="navbar"></div>
+
+    <script>
+    fetch('./navbar.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      })
+      .catch(err => console.error('Error loading navigation:', err));
+    </script>
+
+<!-- end link bar -->
+
+<!-- ██ ███    ███  █████   ██████  ███████ --> 
+<!-- ██ ████  ████ ██   ██ ██       ██ -->      
+<!-- ██ ██ ████ ██ ███████ ██   ███ █████ -->   
+<!-- ██ ██  ██  ██ ██   ██ ██    ██ ██ -->      
+<!-- ██ ██      ██ ██   ██  ██████  ███████ --> 
+<pre class="pre1">
+▗▄▄▄▖▗▖  ▗▖ ▗▄▖  ▗▄▄▖▗▄▄▄▖
+  █  ▐▛▚▞▜▌▐▌ ▐▌▐▌   ▐▌   
+  █  ▐▌  ▐▌▐▛▀▜▌▐▌▝▜▌▐▛▀▀▘
+▗▄█▄▖▐▌  ▐▌▐▌ ▐▌▝▚▄▞▘▐▙▄▄▖
+</pre> 
+ 
+    <div class="centerimg">
+        <img src="images/desert-night-crop2.jpg" alt="night-at-burns" title="night" style="width:450px;height:auto;">
+
+        <p class="par3">
+        This was taken at a site-specific noise-making retreat at the Burns Piñon Ridge Reserve. Sounds available soon.
+        </p>
+    </div>
+
+    <div class="centerimg">
+        <img src="images/rehearsal1.jpg" alt="rehearsal" title="rehearsal1" style="width:450px;height:auto;">
+
+        <p class="par3">
+        This was taken at a rehearsal for <i>I Die Each Time I Hear the Sound</i>, my capstone concert for UCI. Pictured: James Ilgenfritz III on contrabass.
+        </p>
+    </div>
+
+    <div class="centerimg">
+        <img src="images/room.jpg" alt="room" title="room" style="width:450px;height:auto;">
+        <p class="par3">
+        This was taken during a concert of original works by Blake Harrison-Lane in 2022.
+        </p>
+    </div>
+            
+    <div class="centerimg">
+        <img src="images/peek.jpg" alt="peek" title="peek" style="width:450px;height:auto;">
+        <img src="images/coreyshow.jpg" alt="coreyshow" title="coreyshow" style="width:450px;height:auto;">
+        <p class="par3">
+        These two were taken during Corey Fogle's 2022 concert for live-scored large improvising ensemble.
+        </p>
+    </div>
+
+    <div class="centerimg">
+        <img src="images/lungs-man.jpg" alt="lungs-man" title="lungs-man" style="width:300px;height:auto;">
+        <br><p class="par3">
+        This is a scary picture from a KN95 mask.
+        </p>
+    </div>
+
+    </div>
+</body>

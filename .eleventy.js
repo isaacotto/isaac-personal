@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
     return {
         dir: {
             includes: "_includes",
-            output: "build"
+            // output: "build"
         }
     };
 };

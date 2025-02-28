@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <title>io - 11ty</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../../css/style.css">
 
         <!-- ICONS -->
         <link rel="shortcut icon" href="icons/favicon.ico"/>
@@ -13,6 +13,18 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
         <!----------->
+        <script type="text/javascript">
+
+            function TestsFunction() {
+                var T = document.getElementById("TestsDiv"),
+                    displayValue = "";
+                if (T.style.display == "")
+                    displayValue = "none";
+
+                T.style.display = displayValue;
+            }
+
+        </script>
 
     </head>
 
@@ -23,7 +35,7 @@
     <!-- link bar at top of page -->
 
         <div class="linkbar" id="navbar">
-            <a href="../index.html">home</a>
+            <a href="../../blog/index.html">back</a> | <a href="../../index.html">home</a>
         </div>
 
         <!-- <script> -->
@@ -37,19 +49,12 @@
 
     <!-- end link bar -->
 
-<!-- ▗▄▄▄▖▗▖ ▗▖ ▗▄▖ ▗▖ ▗▖ ▗▄▄▖▗▖ ▗▖▗▄▄▄▖▗▄▄▖ -->
-<!--   █  ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌ ▐▌  █ ▐▌ -->   
-<!--   █  ▐▛▀▜▌▐▌ ▐▌▐▌ ▐▌▐▌▝▜▌▐▛▀▜▌  █  ▝▀▚▖ -->
-<!--   █  ▐▌ ▐▌▝▚▄▞▘▝▚▄▞▘▝▚▄▞▘▐▌ ▐▌  █ ▗▄▄▞▘ -->
-<pre class="pre1">
-▗▖ ▗▖▗▄▄▄▖▗▄▄▖ ▗▖    ▗▄▖  ▗▄▄▖
-▐▌ ▐▌▐▌   ▐▌ ▐▌▐▌   ▐▌ ▐▌▐▌   
-▐▌ ▐▌▐▛▀▀▘▐▛▀▚▖▐▌   ▐▌ ▐▌▐▌▝▜▌
-▐▙█▟▌▐▙▄▄▖▐▙▄▞▘▐▙▄▄▖▝▚▄▞▘▝▚▄▞▘
-                              
-</pre>
-
             <div class="blogpost">
+                <h1 class="h1">
+                    2025 | 02 | 05
+                <h1 class="h1">
+                    Chewing on the IFLA LRM
+                </h1>
                 <p class="par2">
                     <p>Let's assume, per the <a href="https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf">IFLA LRM</a>, that the conceptual and real artifacts resulting from musicking (or indeed any art-making) can be meaningfully broken down into mutually exclusive entities: works, expressions, manifestations, and items. The song &quot;Body and Soul&quot;---that is, the collection of attributes that identify something as belonging to the &quot;Body and Soul&quot; family---is the work. This work is manifested in many expressions---recorded performances, transcriptions into traditional notation, string quartet arrangements, highly abstract versions for solo harp, reharmonized versions with new lyrics. Each of these expressions, the model claims, only comes into being once the symbols or signs that identify it are captured on one or more carriers: the sound is recorded to phonodisc; the notes are written down on manuscript paper. One expression (Coleman Hawkins' seminal 1939 recording, let's say) might have many associated manifestations---the original shellac; part of a compilation re-released on LP; the CD re-master. Finally, each of these manifestations. Finally each of these manifestations will have one or more associated items---physically-extended things onto which one might drop a needle.</p>
 <p>This is the beating heart of how we organize information into bibliographic &quot;universes&quot; of entities and collections of attributes. A core tenet of the model holds that each of these four categories of entity (there are many more) are mutually exclusive. The <a href="https://www.discogs.com/release/2996680-Wagner-B%C3%B6hm-Tristan-Und-Isolde-Bayreuth-1966">1966 Deutsche Grammophon recording of Tristan</a> is not itself a work---rather, it is a manifestation of a particular expression (say, a particular orchestral arrangement) of the work Tristan composed by Richard Wagner.</p>
@@ -61,6 +66,27 @@
 
                 </p>
             </div>
+
+            <br>
+
+<h1 class="h1">...................</h1>
+
+<h1 class="h1"><button class="comment" onclick="TestsFunction()">comments</button></h1>
+
+<div id="TestsDiv" style="display:none">
+
+<script src="https://utteranc.es/client.js"
+        repo="isaacotto/isaac-personal"
+        issue-term="pathname"
+        theme="photon-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</div>
+
+            <h1 class="h1" style="color:#555555">© Isaac Otto 2025</h1>
+
         </div>
     </body>
 </html>

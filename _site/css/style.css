@@ -184,3 +184,12 @@ pre {
     align-items: center;
 }
 
+/* BUTTON STYLES */
+
+.comment {
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+

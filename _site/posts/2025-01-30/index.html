@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <title>io - 11ty</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../../css/style.css">
 
         <!-- ICONS -->
         <link rel="shortcut icon" href="icons/favicon.ico"/>
@@ -13,6 +13,18 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
         <!----------->
+        <script type="text/javascript">
+
+            function TestsFunction() {
+                var T = document.getElementById("TestsDiv"),
+                    displayValue = "";
+                if (T.style.display == "")
+                    displayValue = "none";
+
+                T.style.display = displayValue;
+            }
+
+        </script>
 
     </head>
 
@@ -23,7 +35,7 @@
     <!-- link bar at top of page -->
 
         <div class="linkbar" id="navbar">
-            <a href="../index.html">home</a>
+            <a href="../../blog/index.html">back</a> | <a href="../../index.html">home</a>
         </div>
 
         <!-- <script> -->
@@ -37,19 +49,12 @@
 
     <!-- end link bar -->
 
-<!-- ▗▄▄▄▖▗▖ ▗▖ ▗▄▖ ▗▖ ▗▖ ▗▄▄▖▗▖ ▗▖▗▄▄▄▖▗▄▄▖ -->
-<!--   █  ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌ ▐▌  █ ▐▌ -->   
-<!--   █  ▐▛▀▜▌▐▌ ▐▌▐▌ ▐▌▐▌▝▜▌▐▛▀▜▌  █  ▝▀▚▖ -->
-<!--   █  ▐▌ ▐▌▝▚▄▞▘▝▚▄▞▘▝▚▄▞▘▐▌ ▐▌  █ ▗▄▄▞▘ -->
-<pre class="pre1">
-▗▖ ▗▖▗▄▄▄▖▗▄▄▖ ▗▖    ▗▄▖  ▗▄▄▖
-▐▌ ▐▌▐▌   ▐▌ ▐▌▐▌   ▐▌ ▐▌▐▌   
-▐▌ ▐▌▐▛▀▀▘▐▛▀▚▖▐▌   ▐▌ ▐▌▐▌▝▜▌
-▐▙█▟▌▐▙▄▄▖▐▙▄▞▘▐▙▄▄▖▝▚▄▞▘▝▚▄▞▘
-                              
-</pre>
-
             <div class="blogpost">
+                <h1 class="h1">
+                    2025 | 01 | 30
+                <h1 class="h1">
+                    Mingus Plays Piano
+                </h1>
                 <p class="par2">
                     <p>Atticus gave me <a href="https://en.wikipedia.org/wiki/Mingus_Plays_Piano">Mingus Plays Piano</a> (Impulse!, 1964) which I'd either never heard or heard so long ago as to have forgotten it. Phenomenal, personal album. I resist reading (as some might) his self-conscious-but-never-affected slop as a reflection of some DSM pathology... I think of it rather as a key stylistic element---a major creative factor in his work into which he leans quite deliberately. His left-hand ostinato fails in &quot;Myself When I Am Real&quot; when he develops an idea in the right because the pursuit of that little idea is more critical than the grid. That point of failure becomes a &quot;clumsy&quot; inflection point---not the sort of thing to be easily transcribed---marking the shift in attention from one gesture to another. And while it is the (points A and B) gestures that form the foreground of the work, the bits one might play if one covered the piece, the slop in between leaves a strong imprint; tints the work in a beautiful, original way that we don't yet know how to notate.</p>
 <p>Likewise, it's clear to me that when Mingus (elsewhere) leans hard on an A♮ on the downbeat of a B♭m7 in the first measure of &quot;I X Love&quot; (&quot;Duke's Choice&quot;), he's doing something more than milking a leading tone for its friction, he's expressing that liminal &quot;slop&quot; harmonically. The chord really is a split seventh and that set---however briefly expressed on its way to its local resolution---defines the work in a way that it wouldn't in a normal, cadential figure.</p>
@@ -58,6 +63,27 @@
 
                 </p>
             </div>
+
+            <br>
+
+<h1 class="h1">...................</h1>
+
+<h1 class="h1"><button class="comment" onclick="TestsFunction()">comments</button></h1>
+
+<div id="TestsDiv" style="display:none">
+
+<script src="https://utteranc.es/client.js"
+        repo="isaacotto/isaac-personal"
+        issue-term="pathname"
+        theme="photon-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</div>
+
+            <h1 class="h1" style="color:#555555">© Isaac Otto 2025</h1>
+
         </div>
     </body>
 </html>

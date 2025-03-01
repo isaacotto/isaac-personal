@@ -21,8 +21,9 @@ body {
 .center { /* this is the big central box */
   border: 2.5mm ridge rgba(190, 190, 190, .6);/* 5px solid; */
   margin: auto; /* this is what allows centering of main column */
-  width: 630px;
+  width: 750px;
   padding: 10px;
+  font-size: 14px;
 }
 
 /* DIVISION STYLES */
@@ -70,7 +71,7 @@ div {
 }
 
 .linkbar {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     padding: 5px;
 }
@@ -78,7 +79,7 @@ div {
 /* PRE STYLES */
 pre {
     font-family: FiraCode, courier, monospace;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .pre1 {
@@ -122,6 +123,7 @@ pre {
   padding-left: 3em;
   padding-right: 3em;
   text-indent: -2em;
+  font-size: 14px;
 }
 
 .parcenter {
@@ -139,6 +141,7 @@ pre {
   text-align: justify;
   width: 200px;
   display: inline-block;
+  font-size: 14px;
 }
 
 .squarepar {
@@ -157,6 +160,7 @@ pre {
     text-align: justify;
     width: 200px
     display: inline-block;
+    font-size: 14px;
 }
 
 .marc {

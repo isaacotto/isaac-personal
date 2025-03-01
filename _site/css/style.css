@@ -1,7 +1,9 @@
 /* GLOBAL SETTINGS */
 @font-face {
     font-family: FiraCode;
-    src: url('./fonts/FiraCodeNerdFont-SemiBold.ttf');
+    /* src: url('./fonts/FiraCodeNerdFont-SemiBold.ttf'); */
+    src: url('./fonts/FiraCode_Nerd_Font_Regular.ttf');
+    /* src: url('./fonts/FiraMono-Regular.otf'); */
     }
 
   a:link { color: pink !important; text-decoration: none; }
@@ -62,12 +64,14 @@ div {
 
 #first { 
     width: 325px; float:left;
+    padding-left:40px;
 }
 
 #second {
-    overflow:
-    hidden;
+    overflow: hidden;
     vertical-align: top;
+    float: right;
+    padding-right:40px;
 }
 
 .linkbar {
@@ -124,6 +128,8 @@ pre {
   padding-right: 3em;
   text-indent: -2em;
   font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .parcenter {
@@ -170,7 +176,7 @@ pre {
     padding-right: 3em;
     hyphens: auto;
     text-align: left;
-    width: 200px
+    width: 200px;
     display: inline-block;
 }
 

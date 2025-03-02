@@ -202,4 +202,69 @@ pre {
     border-radius: 12px;
 }
 
+/* TABLE STYLES */
+
+.centerTable {
+    margin: auto;
+    border: 0px solid;
+    width: 90%;
+    vertical-align: center;
+    th, td {
+        padding: 5px;
+        text-align: left;
+        /* border-bottom: 1px solid #ddd; */
+    }
+    td:nth-child(2) {
+        text-align: center;
+    }
+    td:nth-child(3) {
+        text-align: right;
+    }
+}
+
+/* DOTFILL */
+
+/* 
+(Use with this sort of arrangement)
+<ul class="toc">
+  <li>
+    <span class="title">Foo</span>
+    <span class="chapter">Chapter 1</span>
+  </li>
+  <li>
+    <span class="title">Bar</span>
+    <span class="chapter">Chapter 2</span>
+  </li>
+</ul>
+*/
+
+.toc {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.toc li {
+  display: flex;
+  width: 90%;
+}
+
+.toc li .title {
+  order: 1;
+}
+
+.toc li .chapter {
+  order: 3;
+}
+
+.toc li::after {
+  background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
+  background-position: bottom;
+  background-size: 2ex 4.5px;
+  background-repeat: space no-repeat;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+  order: 2;
+}
 

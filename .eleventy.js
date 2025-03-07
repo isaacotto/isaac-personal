@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('secret');
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('CNAME');
+    eleventyConfig.addPassthroughCopy('pdf');
 
     eleventyConfig.addPassthroughCopy('navbar.html');
 

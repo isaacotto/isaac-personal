@@ -17,6 +17,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('contact.html');
     eleventyConfig.addPassthroughCopy('friends.html');
 
+    eleventyConfig.addPassthroughCopy('_headers');
+
 
     // This isn't working and I don't know why.
     // It should be rebuilding when I change style.css

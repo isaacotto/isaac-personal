@@ -19,3 +19,9 @@ Per IFLA LRM documentation:
 3. A manifestation requires a *carrier* and results from the capture of one or more expressions.
 
 Yet we have no difficulty conceiving of a musical work whose only expression remains uncaptured: any work premiered prior to the invention of recorded sound, for instance. Per the LRM, these uncaptured performances cannot be, at least bibliographically speaking, expressions at all, unless we were to define "capture" and "carrier" extraordinarily liberally.
+
+As much as I'd like it to, the LRM doesn't set out to be an account of the ontology of creative works, merely a model by which we organize bibliographic universes. I take it that the party line would be that uncaptured expressions won't have directly associated manifestations and items, ergo, they need not be considered bibliographically salient entities.
+
+Thus, most of the time, this does not pose any particular issue for the cataloger. By the time an item ends up in her hands, it will have come down the long chain from artistic conception to mass production, ensuring that relevant work, expression, manifestation entities exist to be documented.
+
+

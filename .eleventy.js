@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('text.html');
     eleventyConfig.addPassthroughCopy('contact.html');
     eleventyConfig.addPassthroughCopy('friends.html');
+    eleventyConfig.addPassthroughCopy('score.html');
 
     eleventyConfig.addPassthroughCopy('_headers');
 

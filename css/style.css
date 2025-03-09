@@ -108,6 +108,7 @@ pre {
       text-align: left;
   }
 }
+
 .longpiece {
   margin-bottom: 1cm;
   padding-left: 18em;
@@ -118,6 +119,16 @@ pre {
   text-align: left;
   /* display: inline-block; */
 }
+
+.centerpiece {
+    /* margin-bottom: 3cm; */
+    width = 300px;
+    display = inline-block;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 14px;
+}
+    
 
 .par1 {
   margin-bottom: .5cm;

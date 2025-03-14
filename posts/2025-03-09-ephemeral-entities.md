@@ -41,7 +41,14 @@ to describe this relationship.
 
 However, given that the opera he discusses leaves no bibliographic trace in the form of captured scores or recordings, our element "critique of expression" therefore has no valid range: the uncaptured performance does not constitute a bibliographically salient expression of its work, despite the fact that bibliographic evidence (e.g. the review) would imply the existence of some work and its (ephemeral) expression.
 
-More soon...
+---
 
+Given the nascent state of this project and the seeming lack of resources that candidly discuss LRM philosophy, I took the desperate measure of chatting with ChatGPT on the topic in the hopes that it would dredge up a few resources or at least let me know if there was some gaping logical hole in my argument (again, desperate).
 
+First, it was suggested that the LRM as it stands does, in fact, incorporate ephemeral entities like (unrecorded) events by way of *Res*, the arch-entity, which encompasses all things that exist. This might be trivially true, but I take it to be pretty unsatisfying---classing something with the *Res* entity fails to link it in any real way to a *Work* in the same way that classing it an *Expression* would.
 
+Second: from this interchange, it seems like the major point of friction is that I'm looking for an ontology of musical works and their derivations that doesn't need to compromise its comprehensiveness in light of cataloging necessities. The LRM seems to get so close to a useful philosophical construct which could say so much more about our world, but stops short in order to make things more convenient for library professionals...
+
+In short, the LRM demonstrates a (seemingly necessary) bias toward fixity over ephemerality because it is only the *fixed* entities that end up populating our shelves and digital collections.
+
+I guess I'm dreaming of a few important but inobtrusive modifications we could make to the LRM so that it hews closer to the structure of reality and reflects actual practices of music-making (and, correspondingly, other forms of creation) more precisely.

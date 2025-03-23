@@ -23,7 +23,7 @@ Musical performances seem to pose a distinct intellectual challenge for FRBR/IFL
 - Expression 1: original composer's score
 - Expression 2: July 27, 1949 performance by the Konzertvereinigung Wiener Staatsopernchor
 
-The IFLA LRM on the other hand gives no examples of performances for "expression". Instead, we get:
+The [IFLA LRM](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf) on the other hand gives no examples of performances for "expression" (or indeed at all). Instead, we get:
 
 - [Expression] Vocal score of Giuseppe Verdi's Macbeth
 - [Expression] A recording of a specific performance by the Amadeus Quartet and Hephzibah Menuhin on piano of Franz Schubert's *Trout quintet*

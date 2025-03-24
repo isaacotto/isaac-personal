@@ -7,10 +7,7 @@ tags:
     - library
     - ifla
     - frbr
-    - work
-    - expression
-    - manifestation
-    - item
+    - wemi
 ---
 
 # What is a performance?

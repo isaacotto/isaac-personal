@@ -1,6 +1,7 @@
 
 module.exports = function(eleventyConfig) {
 
+// Allows rendering of markdown footnotes
     let markdownIt = require("markdown-it");
     let markdownItFootnote = require("markdown-it-footnote");
 

@@ -52,3 +52,13 @@ Second: from this interchange, it seems like the major point of friction is that
 In short, the LRM demonstrates a (seemingly necessary) bias toward fixity over ephemerality because it is only the *fixed* entities that end up populating our shelves and digital collections.
 
 I guess I'm dreaming of a few important but inobtrusive modifications we could make to the LRM so that it hews closer to the structure of reality and reflects actual practices of music-making (and, correspondingly, other forms of creation) more precisely.
+
+---
+
+#### 2025-03-25 Update:
+
+I just came across a [2007](https://dlib.indiana.edu/projects/variations3/docs/v3FRBRreport.pdf) paper, "Definitions of a FRBR-based Metadata Model for the Indiana University Variations3 Project" (2007) which expressly calls for a need to document uncaptured performances as expressions. They write:
+
+> In Variations3, we will treat original performances of Works as Expressions worth keeping track of, even if we do not hold a recording of that performance. This will allow us to record dates, performers, etc., associated with that original performance, regardless of whether it occurred in 1589, 1789 or 1989.
+
+This at least goes to show that I'm not alone in my thinking that FRBR/IFLA are unduly restrictive in their requirement that an expression result in some captured manifestation.

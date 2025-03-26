@@ -7,6 +7,7 @@
         "build": "NODE_ENV=production eleventy --pathprefix 'isaac-personal'"
     },
     "dependencies": {
-        "@11ty/eleventy": "^3.0.0"
-  }
+        "@11ty/eleventy": "^3.0.0",
+        "markdown-it-footnote": "^4.0.0"
+    }
 }

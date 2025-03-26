@@ -1,6 +1,19 @@
 
 module.exports = function(eleventyConfig) {
 
+    let markdownIt = require("markdown-it");
+    let markdownItFootnote = require("markdown-it-footnote");
+
+    let options = {
+        html: true,
+        breaks: true,
+        linkify: true
+    }
+
+    let markdownLib = markdownIt(options).use(markdownItFootnote);
+
+    eleventyConfig.setLibrary("md", markdownLib);
+
 // Passes everything in these folders through to _site
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('icons');
@@ -42,6 +55,7 @@ module.exports = function(eleventyConfig) {
         }
     };
 };
+
 
 // // Sorts posts according to date
 //  module.exports = function(eleventyConfig) {

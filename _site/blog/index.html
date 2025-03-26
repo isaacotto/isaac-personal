@@ -114,7 +114,7 @@
 </h1>
 
 <!-- <p class="par2"></p> -->
-<p class="par2"><p>It seems that, strictly speaking, catalogers don't typically need to think a great deal about performances-qua-performances. In the typical bibliographic universe, performances are reducible to a set of expression-level metadata to be appended to a MARC record (time period coverage; geospatial location coverage; performers; works performed; etc.) The <em>expressions</em> of importance to catalogers are instead those which give rise to catalogable items (<em>durable instances</em>, if you like).</p>
+<p class="par2"><p>It seems that, strictly speaking, catalogers don't typically need to think a great deal about performances as such. In the typical bibliographic universe, performances are reducible to a set of expression-level metadata to be appended to a MARC record (time period coverage; geospatial location coverage; performers; works performed; etc.) The <em>expressions</em> of importance to catalogers are instead those which give rise to catalogable items (<em>durable instances</em>, if you like).</p>
 <p>Given, though, that performances are, historically and still, <em>the</em> central means of expressing and disseminating musical ideas, we would do to think carefully about whether WEMI as we understand it does a good enough job of modeling the relationship between these conceptual entities.</p>
 <p><a href="https://web.library.yale.edu/cataloging/music/frbr-wemi-music">Yale</a>, in describing the WEMI entities, gives as examples:</p>
 <ul>
@@ -122,12 +122,14 @@
 <li>Expression 1: original composer's score</li>
 <li>Expression 2: July 27, 1949 performance by the Konzertvereinigung Wiener Staatsopernchor</li>
 </ul>
-<p>The <a href="https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf">IFLA LRM</a> on the other hand gives no examples of performances for &quot;expression&quot; (or indeed at all).<sup>1</sup> Instead, we get:</p>
+<p>The <a href="https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf">IFLA LRM</a> on the other hand gives no examples of performances for &quot;expression&quot; (or indeed at all)[^1].</p>
+<p>[^1]: Strangely, IFLA provide no musical examples whatsoever for <em>manifestation</em>, though it is heavily implied that we ought to consider any published edition of a CD or phonodisc a <em>manifestation</em> of some (<em>expression</em>) recording.</p>
+<p>Instead, we get:</p>
 <ul>
 <li>[Expression:] Vocal score of Giuseppe Verdi's Macbeth</li>
 <li>[Expression:] A recording of a specific performance by the Amadeus Quartet and Hephzibah Menuhin on piano of Franz Schubert's <em>Trout quintet</em></li>
 </ul>
-<p>It seems to me that this indicates some confusion. How could a performance and a recording of that performance exist at the same ontological level, given that a classical performance in a very real sense depends on a particular arrangement of a work (what both IFLA and Yale are dangerously referring to as a &quot;score&quot;) and a recording of a performance is clearly downstream of that performance?</p>
+<p>It seems to me that this indicates some confusion. How could a performance and a recording of that performance exist at the same &quot;ontological level&quot;, given that a classical performance in a very real sense depends on a particular arrangement of a work (what both IFLA and Yale are dangerously referring to as a &quot;score&quot;) and a recording of a performance is clearly downstream of that performance?</p>
 <p>In short, performances seem to have attributes belonging to each distinct (&quot;disjoint!&quot;) level of the WEMI model:</p>
 <ul>
 <li>A performance is like a <em>work</em>: [??]
@@ -147,7 +149,7 @@
 <ul>
 <li>It's &quot;downstream&quot; of a type of <em>expression</em>, i.e. it can't exist without a particular arrangement (either existing or created in situ) which we have identified as an <em>expression</em>.</li>
 <li>It &quot;embodies&quot; this <em>expression</em> in a way that can be repeated (like repeated printings of an English translation of a book).</li>
-<li>It &quot;results from the capture of one or more expressions onto a carrier&quot; (IFLA). The expression in this case is a particular arrangement (the definition of &quot;carrier&quot; would have to be stretched somewhat to include human bodies; sound waves; human ears).</li>
+<li>It, in a sense, &quot;contains&quot; the creative/intellectual expression, and &quot;results from the capture of one or more expressions onto a carrier&quot; (IFLA). The expression in this case is a particular arrangement (the definition of &quot;carrier&quot; would have to be stretched somewhat to include human bodies; sound waves; human ears).</li>
 </ul>
 </li>
 <li>A performance is like an <em>item</em>:
@@ -159,12 +161,18 @@
 </ul>
 </li>
 </ul>
-<p>I don't think that each of these characteristics are equally defensible, necessarily, but these examples should illustrate that performances are weird, ontologically speaking, when we try to fit them into WEMI as defined by FRBR/IFLA.</p>
-<p>I think I would be most convinced by an argument claiming that performances (as <em>planned creative activities</em>) are most similar to <em>manifestations</em> in that they consist of attributes linking really-existing things, as well as their ontological dependence on symbolic expressions of some work. The music they give rise to, then, exist as a sort of temporally-limited thing-in-the-world---an <em>ephemeral instance</em> of that performance.</p>
-<p>The performance, it seems, <em>expresses</em> an <em>expression</em> when it realizes a particular arrangement of a work. It of course also relates to the work proper, though in a very different sense than the <em>arrangement</em> relates to the work.</p>
+<p>Of course, just to muddle things further, performances bear some similarity to <em>collective agents</em>. In the same sense that a conference is (a) an event[^2] and (b) a collective agent which can act to &quot;author&quot; a work (proceedings, etc.), performances are events which consist of many individual <em>persons</em> with distinct roles who collaborate to yield some (durable or ephemeral) creative product, particularly in (albeit fringe) instances where a score or recording is created as an integral aspect of the performance itself.</p>
+<p>[^2]: Aside: why, indeed, isn't <em>event</em> (in the generic sense) one of our FRBR/IFLA entities? I suspect there's a good reason, but I don't know it.</p>
 <hr>
-<p><sup>1</sup> Strangely, IFLA provide no musical examples whatsoever for <em>manifestation</em>, though it is heavily implied that we ought to consider any published edition of a CD or phonodisc a <em>manifestation</em> of some (<em>expression</em>) recording.</p>
-<p>[ more soon ]</p>
+<p>I don't think that each of these comparisons are equally defensible, necessarily, but these examples should illustrate that performances are weird, ontologically speaking, when we try to fit them into WEMI as defined by FRBR/IFLA.</p>
+<p>I think I would be most convinced by an argument claiming that performances (as <em>planned creative activities</em>) are most similar to <em>manifestations</em> in that they consist of attributes linking really-existing things, as well as their ontological dependence on symbolic expressions of some work. The music they give rise to, then, exist as a sort of temporally-limited thing-in-the-world---an <em>ephemeral instance</em> of that performance.</p>
+<p>The performance, it seems, &quot;expresses&quot; (i.e. instantiates) an <em>expression</em> when it realizes a particular arrangement of a work. It of course also relates to the work proper, though in a very different sense than the <em>arrangement</em> relates to the work.</p>
+<hr>
+<p>The next question to tackle, I suppose, it &quot;why should it be so important that a bibliographic universe be expected to (universally) model these sorts of ephemeral events?&quot; I've speculated about this here recently, but I think the answer will reveal something important about both systems of bibliographic information and the ontology of musical works...</p>
+<h4>Resources</h4>
+<ul>
+<li>Note to self: check out <a href="https://journal.code4lib.org/articles/16491">&quot;Works, Expressions, Manifestations, Items: An Ontology&quot;</a> for discussion of a need for a broader WEMI model.</li>
+</ul>
 </p>
 
 <br>
@@ -205,7 +213,7 @@
 <li>A manifestation requires a <em>carrier</em> and results from the capture of one or more expressions.</li>
 </ol>
 <p>Yet we have no difficulty conceiving of a musical work whose only expression remains uncaptured: any work premiered prior to the invention of recorded sound, for instance. Per the LRM, these uncaptured performances cannot be, at least bibliographically speaking, expressions at all, unless we were to define &quot;capture&quot; and &quot;carrier&quot; extraordinarily liberally.</p>
-<p>As much as I'd like it to, the LRM doesn't set out to be an account of the ontology of creative works, merely a model by which we organize bibliographic universes.
+<p>As much as I'd like it to, the LRM doesn't set out to be an account of the ontology of creative works, merely a model by which we organize bibliographic universes.<br>
 The party line, presumably, would be that uncaptured expressions won't have directly associated manifestations and items, ergo, they need not be considered bibliographically salient entities.</p>
 <p>As such, the lack of an account of these &quot;ephemeral entities&quot; does not pose any particular issue for the cataloger. By the time an item ends up in her hands, it will have come down the long chain from artistic conception to mass production, ensuring that relevant work, expression, manifestation entities exist to be documented.</p>
 <p>A small but important objection may be raised here, though. We might imagine the following scenario:</p>
@@ -224,6 +232,13 @@ The party line, presumably, would be that uncaptured expressions won't have dire
 <p>Second: from this interchange, it seems like the major point of friction is that I'm looking for an ontology of musical works and their derivations that doesn't need to compromise its comprehensiveness in light of cataloging necessities. The LRM seems to get so close to a useful philosophical construct which could say so much more about our world, but stops short in order to make things more convenient for library professionals...</p>
 <p>In short, the LRM demonstrates a (seemingly necessary) bias toward fixity over ephemerality because it is only the <em>fixed</em> entities that end up populating our shelves and digital collections.</p>
 <p>I guess I'm dreaming of a few important but inobtrusive modifications we could make to the LRM so that it hews closer to the structure of reality and reflects actual practices of music-making (and, correspondingly, other forms of creation) more precisely.</p>
+<hr>
+<h4>2025-03-25 Update:</h4>
+<p>I just came across a <a href="https://dlib.indiana.edu/projects/variations3/docs/v3FRBRreport.pdf">2007</a> paper, &quot;Definitions of a FRBR-based Metadata Model for the Indiana University Variations3 Project&quot; (2007) which expressly calls for a need to document uncaptured performances as expressions. They write:</p>
+<blockquote>
+<p>In Variations3, we will treat original performances of Works as Expressions worth keeping track of, even if we do not hold a recording of that performance. This will allow us to record dates, performers, etc., associated with that original performance, regardless of whether it occurred in 1589, 1789 or 1989.</p>
+</blockquote>
+<p>This at least goes to show that I'm not alone in my thinking that FRBR/IFLA are unduly restrictive in their requirement that an expression result in some captured manifestation.</p>
 </p>
 
 <br>
